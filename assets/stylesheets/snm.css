@@ -1,0 +1,78 @@
+.clear{
+	clear: both;
+}
+
+.header_container_logo_anchor
+{
+	padding: 0 0 18px 8px;
+	display: block;
+}
+.header_container_social_anchor img
+{
+	height: 52px;
+}
+.color_red
+{
+	color: #FF0000;
+}
+
+/*SPACERS*/
+.spacer5
+{
+	height: 5px;
+}
+
+.spacer10
+{
+	height: 10px;
+}
+
+.spacer15
+{
+	height: 15px;
+}
+.spacer20
+{
+	height: 20px;
+}
+
+/*ALIGN*/
+.txt-align-right
+{
+	text-align: right;
+}
+.txt-align-center
+{
+	text-align: center;
+}
+
+/*fancybox override*/
+
+.snm-fancybox-close
+{
+	background: url("../fancybox/fancybox.png") repeat scroll -40px 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: none;
+    height: 30px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    width: 30px;
+    z-index: 1103;
+}
+
+.required_msg
+{
+	font-size: 10px;
+	margin: -10px 0 10px;
+}
+
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}

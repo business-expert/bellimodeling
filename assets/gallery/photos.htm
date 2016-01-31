@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><!-- InstanceBegin template="/Templates/Secure.dwt" codeOutsideHTMLIsLocked="false" --> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <link rel="stylesheet" href="/stylesheets/ie8.css"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <!-- InstanceBeginEditable name="doctitle" --><title></title><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
+        
+    <!-- InstanceEndEditable -->
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <link rel="stylesheet" href="/stylesheets/foundation.css">
+  
+  <!-- Included CSS Files (Compressed) -->
+  <!-- <link rel="stylesheet" href="stylesheets/foundation.min.css"> -->
+  <link rel="stylesheet" href="/stylesheets/app.css">
+
+  <script src="/javascripts/modernizr.foundation.js"></script>
+  <!-- TypeKit WebFont -->
+  <script type="text/javascript" src="//use.typekit.net/vnq0kky.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+    <![endif]-->
+
+</head>
+<body>
+<!-- TEMP SIZE -->
+	<div id="fqv" style="position:fixed;top:4px;left:4px;z-index:999;color:#fff;"><p style="font-size:12px;background:rgba(0,0,0,0.75);padding:5px;margin-bottom:1px;line-height:1.2;"><span class="left">Media:</span> <span style="font-weight:bold;" class="show-for-xlarge">Extra Large</span><span style="font-weight:bold;" class="show-for-large">Large</span><span style="font-weight:bold;" class="show-for-medium">Medium</span><span style="font-weight:bold;" class="show-for-small">Small</span><span style="font-weight:bold;" class="show-for-landscape">Landscape</span><span style="font-weight:bold;" class="show-for-portrait">Portrait</span><span style="font-weight:bold;" class="show-for-touch">Touch</span></p></div>
+<!-- END TEMP SIZE -->
+<!-- -->
+<div class="container header">
+  	<div class="left header-left"><a href="/home"><img src="/images/logo.png"></a></div>
+    <div class="left header-secure-left hide-for-small">
+    	<a href="/dashboard"><img src="/images/secure_header_icon_home.png" class="left"></a>
+       	<a href="/private-profile"><img src="/images/secure_header_icon_profile.png" class="left"></a>
+        <a href="/messages"><img src="/images/secure_header_icon_message.png" class="left"></a>
+        <a href="/gallery"><img src="/images/secure_header_icon_gallery.png" class="left"></a>
+        <a href="/discover"><img src="/images/secure_header_icon_discover.png" class="left"></a>
+    </div>
+    <div class="right header-secure-right" style="background:url(/images/dev/chelsea_profile_pic.png) no-repeat center top; background-size: cover;"></div>
+    <div class="header-secure-right-arrow"><img src="/images/secure_header_icon_right_arrow.png"></div>
+    <div class="right header-secure-title-right">
+    	<h6 class="text-white uppercase">CHELSEA PENNER</h6>
+    </div>
+</div>
+<div class="header-shadow hide-for-small"></div>
+<div class="secure-zone-dropdown" style="display:none;">
+	<div class="secure-zone-dropdown-arrow"></div>
+    <ul>
+    	<a href="/public-profile" target="_blank"><li><img src="/images/icons-three/profile.png"><span>View My Public Profile</span></li></a>
+        <a href="/private-profile"><li><img src="/images/icons-three/profile.png"><span>View My Private Profile</span></li></a>
+        <a href="/edit-profile"><li><img src="/images/icons-three/edit.png"><span>Edit My Profile</span></li></a>
+        <a href="/profile-settings"><li><img src="/images/icons-three/settings.png"><span>Profile Settings</span></li></a>
+        <a href="/home"><li><img src="/images/icons-three/logout.png"><span>Logout</span></li></a>
+    </li>
+</div>
+
+<!-- InstanceBeginEditable name="ContentArea" -->
+<!-- -->
+<div class="row quarter-spacer"></div>
+<div class="row quarter-spacer show-for-small"></div>
+<div class="row portal">
+	<div class="twelve columns">
+    	<div class="discover-header-outer">
+        	<div class="gallery-sort">
+            	<ul>
+                	<li><a href="">All Media</a></li>
+                    <li class="selected"><a href="">Photos</a></li>
+                    <li><a href="">Video</a></li>
+                    <li><a href="">Music</a></li>
+                 </ul>
+        	</div>
+            <div class="gallery-right">
+            	<img src="/images/icons/gallery_add.png">
+            </div>
+            <div class="gallery-right-dropdown" style="display:none;">
+            	<div class="gallery-right-dropdown-arrow"></div>
+                <ul>
+                	<a href=""><li><img src="/images/icons-three/album.png"><span>Add Photo Gallery</span></li></a>
+                    <a href=""><li><img src="/images/icons-three/music.png"><span>Add Music Collection</span></li></a>
+                    <a href=""><li><img src="/images/icons-three/video.png"><span>Add Video Gallery</span></li></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row portal">
+	<h3>Photo Gallery Name</h3>
+</div>
+<div class="row photo-gallery-content">
+	<a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+	<a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+    <a href=""><div class="two columns">
+    	<div class="photo-gallery-outer" style="background: url(/images/dev/chelsea-profile.png) center center;background-size: cover;"></div>
+    </div></a>
+
+</div>
+
+<!-- InstanceEndEditable -->
+<div class="footer-shadow hide-for-small"></div>
+<div class="container footer">
+	<div class="row">
+                <div class="two columns mobile-two">
+                    <ul>
+                        <li><strong>ABOUT BELLINITY</strong></li>
+                        <li><a href="">How Bellinity Works</a></li>
+                        <li><a href="">Our Company</a></li>
+                        <li><a href="">Press</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="two columns mobile-two">
+                	<ul>
+                        <li><strong>PLATFORM DETAILS</strong></li>
+                        <li><a href="">Terms of Service</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Help & FAQ</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="six columns mobile-two"></div>
+                <div class="two columns mobile-two">
+                    <div class="right footer-icons-outer">
+                        <a href=""><img src="/images/footer_pinterest.png" class="left footer-icons"></a>
+                        <a href=""><img src="/images/footer_googleplus.png" class="left footer-icons"></a>
+                        <a href=""><img src="/images/footer_twitter.png" class="left footer-icons"></a>
+                        <a href=""><img src="/images/footer_facebook.png" class="left footer-icons"></a>
+                    </div>
+                    <div class="right">
+                        <img src="/images/footer_logo.png" class="right">
+                    </div>
+                </div>
+            </div>
+</div>
+<div class="container sub-footer">
+	<div class="row">
+    	<div class="three columns centered">
+        	<p class="text-center text-white">© 2013 Bellinity. All rights reserved.</p>
+        </div>
+    </div>
+</div>
+  
+  
+  
+  
+  
+  
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  
+  <script src="javascripts/jquery.js"></script>
+  
+  <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
+  
+  <script src="javascripts/jquery.foundation.forms.js"></script>
+  
+  <script src="javascripts/jquery.foundation.reveal.js"></script>
+  
+  <script src="javascripts/jquery.foundation.orbit.js"></script>
+  
+  <script src="javascripts/jquery.foundation.navigation.js"></script>
+  
+  <script src="javascripts/jquery.foundation.buttons.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tabs.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tooltips.js"></script>
+  
+  <script src="javascripts/jquery.foundation.accordion.js"></script>
+  
+  <script src="javascripts/jquery.placeholder.js"></script>
+  
+  <script src="javascripts/jquery.foundation.alerts.js"></script>
+  
+  <script src="javascripts/jquery.foundation.topbar.js"></script>
+  
+  <script src="javascripts/jquery.foundation.joyride.js"></script>
+  
+  <script src="javascripts/jquery.foundation.clearing.js"></script>
+  
+  <script src="javascripts/jquery.foundation.magellan.js"></script>
+  
+  -->
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="/javascripts/jquery.js"></script>
+  <script src="/javascripts/foundation.min.js"></script>
+  <script src="/javascripts/jquery.isotope.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="/javascripts/app.js"></script>
+</body>
+<!-- InstanceEnd --></html>
